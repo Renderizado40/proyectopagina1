@@ -12,7 +12,7 @@
 		<!-- content -->
 		<div id="content">
 			<!-- Header -->
-			<div id="header_menu">
+			<div id="header_menu" style="z-index: 10;">
 				<div id="header_menu_content">
 					<img src="./assets/img/profile_icon.png" height="50" width="50">
 						<div id="header_menu_content_name">
@@ -26,6 +26,15 @@
 							<a href="" style="text-decoration: none" class="red_blog">Blog</a>
 						</div>
 				</div>
+			</div>
+			<div id="button_static" style="position: fixed; left: 96.5%; top: 93.5%; z-index: 1;">
+				<a href="#header" style="text-decoration: none">
+						<h2>
+							<b>
+								^		
+							</b>
+						</h2>
+				</a>
 			</div>
 			<div id="header">
 						<!-- Div para la foto de perfil -->
@@ -352,6 +361,17 @@
 				<p>
 					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce in turpis quam. Nulla quis eleifend lectus.
 				</p>
+				<div id="linea_roja" style="position: relative;">
+					<div style="position: absolute; left: 530px; top: -20px; z-index: 1;">
+						<img src="./assets/img/mega_icon.png" height="45px;" width="45px">
+					</div>
+					<div style="position: absolute; left: 910px; top: -20px; z-index: 1;">
+						<img src="./assets/img/mega_icon.png" height="45px;" width="45px">
+					</div>
+					<div style="position: absolute; left: 1300px; top: -20px; z-index: 1;">
+						<img src="./assets/img/mega_icon.png" height="45px;" width="45px">
+					</div>
+				</div>
 				<div id="latest_blogpost_section">
 					<div id="latest_blogpost_box">
 						<h2>
@@ -511,11 +531,11 @@
 						</div>
 					</div>
 					<div id="pricing_continer_box">
-						<div id="pricing_continer_boxtop">
+						<div id="pricing_continer_boxtop_ricky">
 							<h2>
 								Ricky Ricon
 							</h2>
-							<div id="pricing_continer_circle">
+							<div id="pricing_continer_circle2">
 								<h3>
 									$150
 								</h3>
@@ -634,8 +654,11 @@
 					<br>
 					
 					<textarea class="form-control" placeholder="&nbsp;&nbsp;Message" id="message"></textarea>
-
+					<div id="pricing_continer_boxbottom_button2">
+						<a href="" style="text-decoration: none">Send Message</a>
+					</div>
 				</div>
+
 				<div id="info_general">
 					<img src="./assets/img/profile_icon.png" height="170" width="170">
 					<div id="info_adress">

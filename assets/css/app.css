@@ -55,6 +55,7 @@ body{
 }
 #shotcuts a:hover{
 	border-style: solid;
+	transition-duration: 0.2s;
 }
 #header{
 	width: 100%;
@@ -82,12 +83,14 @@ ul.social li div a{
 }
 ul.social li div a:hover{
 	border-color: #2f4254;
+	transition-duration: 0.5s;
 }
 ul.social li div{
 	display: inline;
 }
 ul.social li div:hover img{
 	filter: contrast(20);
+	transition-duration: 0.5s;
 }
 #profile_photo{
 	display: inline-block;
@@ -131,6 +134,7 @@ ul.social li div:hover img{
 }
 #know_me p:hover{
 	color: #179c82;
+	transition-duration: 0.5s;
 }
 #hire_me{
 	float: middle;
@@ -235,17 +239,23 @@ ul.social li div:hover img{
 	color: white;
 	text-align: center;
 	margin-bottom: 10px;
+	transition-duration: 0.5s;
 }
 #capacity_secciones p{
 	color: white;
 	font-size: 1.1em;
 	font-family: sans-serif;
 }
+#capacity_secciones img{
+	transition-duration: 0.5s;
+}
 #capacity_secciones:hover img{
 	padding-bottom: 10px;
+	transition-duration: 0.5s;
 }
 #capacity_secciones:hover h2{
 	color: #2f4254;
+	transition-duration: 0.5s;
 }
 #cantidades{
 	background-color: #34495e;
@@ -368,6 +378,7 @@ ul.social li div:hover img{
 }
 #see_in_action_text a p:hover{
 	background-color: #da5059;
+	transition-duration: 0.5s;
 }
 #inspiration{
 	height: 250px;
@@ -499,19 +510,20 @@ ul.social li div:hover img{
 
 #read_more_button:hover{
 	background-color: #da5059;
+	transition-duration: 0.25s;
 }
 #comment_section{
 	display: inline-block;
 	text-align: center;
 	padding-left: 20px;
 	padding-right: 20px;
-	float: none;
+	float: left;
 	margin: 15px 0px 0px 0px;
 	background-color: #efefef;
 	border-bottom-left-radius: 7px;
 	border-style: solid;
 	border-width: 0px 1px 0px 0px;
-	border-color: gray;
+	border-color: #989898;
 }
 #comment_section h3{
 	display: inline-block;
@@ -521,25 +533,28 @@ ul.social li div:hover img{
 	margin-bottom: 4px;
 }
 #comment_section:hover{
-	background-color: #ec5b65; 
+	background-color: #ec5b65;
+	transition-duration: 0.5s; 
 }
 #comment_section:hover h3{
 	color: white;
+	transition-duration: 0.5s;
 }
 #comment_section:hover img{
 	filter: invert(1);
+	transition-duration: 0.5s;
 }
 #date_section{
 	display: inline-block;
 	text-align: center;
 	padding-left: 20px;
 	padding-right: 20px;
-	float: none;
+	float: left;
 	margin: 15px 0px 0px 0px;
 	background-color: #efefef;
 	border-style: solid;
 	border-width: 0px 1px 0px 0px;
-	border-color: gray;
+	border-color: #989898;
 }
 #date_section h3{
 	display: inline-block;
@@ -550,53 +565,60 @@ ul.social li div:hover img{
 }
 #date_section:hover img{
 	filter: invert(1);
+	transition-duration: 0.5s;
 }
 #date_section:hover{
-	background-color: #ec5b65; 
+	background-color: #ec5b65;
+	transition-duration: 0.5s; 
 }
 #date_section:hover h3{
 	color: white;
+	transition-duration: 0.5s;
 }
 a #face_section{
 	display: inline-block;
 	text-align: center;
 	padding-left: 20px;
-	padding-right: 20px;
-	float: none;
+	padding-right: 32px;
+	float: left;
 	margin: 15px 0px 0px 0px;
 	background-color: #efefef;
 	border-style: solid;
 	border-width: 0px 1px 0px 0px;
-	border-color: gray;
+	border-color: #989898;
 	padding-top: 13px;
 	padding-bottom: 3px;
 }
 #face_section:hover img{
 	filter: invert(1);
+	transition-duration: 0.5s;
 }
 #face_section:hover{
-	background-color: #ec5b65; 
+	background-color: #ec5b65;
+	transition-duration: 0.5s; 
 }
 a #twit_section{
 	display: inline-block;
 	text-align: center;
 	padding-left: 20px;
 	padding-right: 32px;
-	float: none;
+	float: left;
 	margin: 15px 0px 0px 0px;
 	background-color: #efefef;
 	border-style: solid;
 	border-width: 0px 0px 0px 0px;
-	border-color: gray;
+	border-color: #989898;
 	border-bottom-right-radius: 7px;
 	padding-top: 13px;
 	padding-bottom: 3px;
 }
 #twit_section:hover img{
 	filter: invert(1);
+	transition-duration: 0.5s;
 }
 #twit_section:hover{
-	background-color: #ec5b65; 
+	background-color: #ec5b65;
+	transition-duration: 0.5s; 
 }
 #pricing{
 	background-color: #1ABC9C;
@@ -633,6 +655,7 @@ a #twit_section{
 	height: 430px;
 	width: 390px;
 	display: inline-block;
+	transition-duration: 2s;
 }
 #pricing_continer_boxtop{
 	width: 360px;
@@ -640,21 +663,58 @@ a #twit_section{
 	margin-left: 15px;
 	background-color: #2f4254;
 	border-radius: 7px 7px 0px 0px;
+	transition-duration: 1.5s;
 }
 #pricing_continer_boxtop h2{
 	margin: 0px 0px 18px 0px;
+	padding-top: 20px;
+	transition-duration: 1.5s;
 }
+/* INICIO ALTERNATIVO PARA RICKY*/
+#pricing_continer_boxtop_ricky h2{
+	margin: 0px 0px 18px 0px;
+	padding-top: 20px;
+	color: #2f4254;
+}
+#pricing_continer_boxtop_ricky{
+	width: 360px;
+	height: 173px;
+	margin-left: 15px;
+	background-color: white;
+	border-radius: 7px 7px 0px 0px;
+}
+#pricing_continer_circle2{
+	height: 80px;
+	width: 80px;
+	border-radius: 40px;
+	border-style: none;
+	background-color: #2c3f51;
+	padding: 0px 0px 0px 0px;
+	margin-left: 140px;
+}
+#pricing_continer_circle2 h3{
+	font-size: 1.5em;
+	padding: 27px 0px 0px 0px;
+	color: white;
+	text-align: center;
+	font-family: sans-serif;
+}
+/*FIN DE ALTERNATIVO PARA RICKY*/
 #pricing_continer_box:hover #pricing_continer_boxtop h2{
 	color: #2c3f51;
+	transition-duration: 1.5s;
 }
 #pricing_continer_box:hover #pricing_continer_boxtop{
 	background-color: white;
+	transition-duration: 1.5s;
 }
 #pricing_continer_box:hover #pricing_continer_boxtop #pricing_continer_circle{
 	background-color: #2c3f51;
+	transition-duration: 1.5s;
 }
 #pricing_continer_box:hover #pricing_continer_boxtop #pricing_continer_circle h3{
 	color: white;
+	transition-duration: 1.5s;
 }
 #pricing_continer_circle{
 	height: 80px;
@@ -664,6 +724,7 @@ a #twit_section{
 	background-color: white;
 	padding: 0px 0px 0px 0px;
 	margin-left: 140px;
+	transition-duration: 1.5s;
 }
 #pricing_continer_circle h3{
 	font-size: 1.5em;
@@ -671,6 +732,7 @@ a #twit_section{
 	color: #2c3f51;
 	text-align: center;
 	font-family: sans-serif;
+	transition-duration: 1.5s;
 }
 #pricing_continer_boxmiddle{
 	width: 360px;
@@ -686,10 +748,11 @@ a #twit_section{
 }
 #pricing_continer_boxbottom{
 	width: 360px;
-	height: 69px;
+	height: 59px;
 	margin-left: 15px;
 	background-color: #dfe0e0;
 	border-radius: 0px 0px 7px 7px;
+	padding-top: 15px;
 }
 #pricing_continer_boxbottom_button{
 	padding: 13px 10px 10px 10px;
@@ -843,7 +906,7 @@ a #twit_section{
 	border-radius: 5px;
 	border-style: none;
 	padding: 9px 225px 100px 0px;
-	margin-bottom: 150px;
+	margin-bottom: 50px;
 	font-family: sans-serif;
 	margin-left: 20px;
 }
@@ -929,4 +992,76 @@ a #twit_section{
 }
 #circle_icon:hover{
 	background-color: #da5059;
+}
+#linea_roja{
+	border-style: solid;
+	border-width: 2px;
+	border-color: #ed5a64;
+	margin-bottom: 60px;
+	margin-top: 20px;
+}
+#pricing_continer_boxbottom_button2{
+	padding: 13px 10px 10px 10px;
+	border-style: solid;
+	border-width: 3px;
+	border-radius: 6px;
+	border-width: 1px 1px 5px 1px;
+	border-color: #da5059;
+	background-color: #ec5b65;
+	color: white;
+	font-size: 15px;
+	height: 8px;
+	width: 120px;
+	margin-right: 20px;
+	margin-left: 140px;
+	margin-top: 0px;
+}
+#pricing_continer_boxbottom_button2 a{
+	margin-bottom: 10px;
+	color: white;
+	margin-left: 10px;
+	font-family: sans-serif;
+}
+#pricing_continer_boxbottom_button2:hover{
+	background-color: #da5059;
+	transition-duration: 0.5s;
+}
+#button_static{
+	height: 50px;
+	width: 50px;
+	border-style: none;
+	background-color: #ec5a64;
+	text-align: center;
+	border-radius: 25px;
+	transition-duration: 0.25s;
+
+}#button_static a h2{
+	margin: 10px 0px 10px 0px;
+	height: 50px;
+	width: 50px;
+	border-style: none;
+	border-radius: 25px;
+}
+#button_static a h2 b{
+	color: white;
+	font-size: 1.25em;
+}
+#button_static:hover{
+	background-color: white;
+}
+#button_static:hover a h2{
+	margin: 5px 0px 20px 0px;
+	height: 50px;
+	width: 50px;
+	border-style: none;
+	border-radius: 25px;
+	transition-duration: 0.5s;
+}
+#button_static:hover a h2 b{
+	color: black;
+	transition-duration: 2s;
+}
+#button_static:hover h2 b{
+	padding-bottom: 20px;
+	transition-duration: 3s;
 }
