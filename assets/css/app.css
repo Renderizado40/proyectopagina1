@@ -98,13 +98,12 @@ ul.social li div:hover img{
 #profile_photo{
 	display: inline-block;
 	min-height: 30%;
-	margin-left: 776.500px;
+	margin-left: 785px;
 	margin-right: 776.500px;
 	text-align: center;
 }
 #name{
 	text-align: center;
-
 }
 #name h1{
 	color: white;
