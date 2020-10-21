@@ -32,8 +32,11 @@ body{
 	padding-left: 5px;
 	float: left;
 }
-#header_menu_content_name a{
+#header_menu_content_name:hover a{
 	color: #1abc9c;
+}
+#header_menu_content_name a{
+	color: white;
 	font-size: 1.50em;
 }
 #shotcuts{
@@ -83,7 +86,7 @@ ul.social li div a{
 }
 ul.social li div a:hover{
 	border-color: #2f4254;
-	transition-duration: 0.5s;
+	transition-duration: 0.25s;
 }
 ul.social li div{
 	display: inline;
@@ -101,6 +104,7 @@ ul.social li div:hover img{
 }
 #name{
 	text-align: center;
+
 }
 #name h1{
 	color: white;
@@ -109,10 +113,15 @@ ul.social li div:hover img{
 	font-size: 4em;
 	display: inline-block;
 	margin-bottom: 0px;
+	transition-duration: 0.75s;
+	transform: matrix(2);
 }
 #name ul{
 	display: inline-block;
 	list-style: none;
+	transition-duration: 0.75s;
+	transform: matrix(2);
+	transform: 
 }
 #know_me{
 	float: middle;
@@ -992,6 +1001,7 @@ a #twit_section{
 }
 #circle_icon:hover{
 	background-color: #da5059;
+	transition-duration: 0.75s;
 }
 #linea_roja{
 	border-style: solid;
@@ -1044,7 +1054,7 @@ a #twit_section{
 }
 #button_static a h2 b{
 	color: white;
-	font-size: 1.25em;
+	font-size: 1.45em;
 }
 #button_static:hover{
 	background-color: white;
