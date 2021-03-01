@@ -1,6 +1,6 @@
 #content{
 	width: 100%;
-	margin: 0;
+	margin: auto;
 }
 body{
 	margin: 0;
@@ -8,7 +8,7 @@ body{
 }
 #header_menu{
 	height: 70px;
-	width: 100%;
+	width: 96%;
 	background-color: #283746;
 	border-style: solid;
 	border-width: 0px 0px 6px 0px;
